@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 Discussions
+    url: https://github.com/honeymelon-app/support/discussions
+    about: For questions, ideas, and community discussions
+  - name: 📚 Support Documentation
+    url: https://github.com/honeymelon-app/support/blob/main/SUPPORT.md
+    about: Read our support guidelines and learn how to get help
+  - name: 🔒 Security Vulnerability
+    url: https://github.com/honeymelon-app/support/security/advisories/new
+    about: Report security vulnerabilities privately (DO NOT use public issues)

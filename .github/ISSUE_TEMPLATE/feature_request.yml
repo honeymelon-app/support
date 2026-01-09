@@ -1,0 +1,198 @@
+name: ✨ Feature Request
+description: Suggest a new feature or enhancement for Honeymelon
+title: "[Feature]: "
+labels: ["enhancement", "status: needs-triage"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a feature! Your feedback helps us improve Honeymelon.
+        
+        **Before submitting:**
+        - Search existing feature requests to avoid duplicates
+        - Check discussions to see if this has been discussed
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: What problem does this feature solve? What limitation or frustration are you experiencing?
+      placeholder: |
+        I'm always frustrated when...
+        Currently, I can't...
+        It would be helpful if...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed Solution
+      description: Describe your proposed solution in detail. How should this feature work?
+      placeholder: |
+        The feature should...
+        When I click/do X, it should...
+        This would work by...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Have you considered any alternative solutions or features? What are the trade-offs?
+      placeholder: |
+        Alternative 1: ...
+        Alternative 2: ...
+        Why proposed solution is better: ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: use-cases
+    attributes:
+      label: Use Cases
+      description: Describe specific use cases or scenarios where this feature would be valuable
+      placeholder: |
+        Use case 1: ...
+        Use case 2: ...
+        This would help users who...
+    validations:
+      required: false
+
+  - type: dropdown
+    id: user-type
+    attributes:
+      label: User Type
+      description: Which type of user would benefit most from this feature?
+      options:
+        - All users
+        - Power users
+        - New users
+        - Professional users
+        - Specific workflow (describe in context)
+    validations:
+      required: false
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority (from your perspective)
+      description: How important is this feature to you?
+      options:
+        - Critical - Blocking my workflow
+        - High - Would significantly improve my workflow
+        - Medium - Nice to have
+        - Low - Small improvement
+    validations:
+      required: false
+
+  - type: textarea
+    id: mockups
+    attributes:
+      label: Mockups or Examples
+      description: |
+        If applicable, add mockups, screenshots, or examples from other apps
+        You can drag and drop images directly into this field
+    validations:
+      required: false
+
+  - type: input
+    id: similar-apps
+    attributes:
+      label: Similar Features in Other Apps
+      description: Are there similar features in other applications that inspired this request?
+      placeholder: "e.g., App X has a feature where..."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: macos-version
+    attributes:
+      label: Target macOS Version
+      description: Is this feature specific to a particular macOS version or should it work on all supported versions?
+      options:
+        - All supported macOS versions
+        - macOS 15+ (Sequoia and later)
+        - macOS 14+ (Sonoma and later)
+        - macOS 13+ (Ventura and later)
+        - Specific version (explain in context)
+    validations:
+      required: false
+
+  - type: dropdown
+    id: chip-specific
+    attributes:
+      label: Chip Specific?
+      description: Is this feature specific to Apple Silicon or Intel Macs?
+      options:
+        - Works on all chip types
+        - Apple Silicon specific
+        - Intel specific
+        - Not sure
+    validations:
+      required: false
+
+  - type: textarea
+    id: implementation-suggestions
+    attributes:
+      label: Implementation Suggestions
+      description: |
+        If you have technical knowledge, feel free to suggest how this might be implemented
+        (Optional - only if you have specific ideas)
+      placeholder: |
+        This could potentially be implemented by...
+        Technical considerations: ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Expected Impact
+      description: How would this feature impact your workflow or productivity?
+      placeholder: |
+        This would save me X hours per week...
+        This would allow me to...
+        This would improve my workflow by...
+    validations:
+      required: false
+
+  - type: dropdown
+    id: license-relevance
+    attributes:
+      label: License Tier
+      description: Should this be available to all users, or could it be a premium feature?
+      options:
+        - Should be free for all users
+        - Could be a premium/paid feature
+        - No preference
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: |
+        Add any other context, research, or information about the feature request here:
+        - Related features that would complement this
+        - Potential challenges or considerations
+        - Links to discussions or related issues
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checklist
+      description: Please confirm the following
+      options:
+        - label: I have searched existing feature requests to ensure this is not a duplicate
+          required: true
+        - label: I have clearly described the problem this feature would solve
+          required: true
+        - label: I have provided sufficient context and use cases
+          required: true

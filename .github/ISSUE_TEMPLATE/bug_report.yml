@@ -1,0 +1,207 @@
+name: 🐛 Bug Report
+description: Report a bug or issue with Honeymelon
+title: "[Bug]: "
+labels: ["bug", "status: needs-triage"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a bug! Please fill out this form as completely as possible to help us understand and fix the issue.
+        
+        **Before submitting:**
+        - Search existing issues to avoid duplicates
+        - Make sure you're using the latest version of Honeymelon
+
+  - type: input
+    id: app-version
+    attributes:
+      label: Honeymelon Version
+      description: What version of Honeymelon are you using? (Find this in Honeymelon > About Honeymelon)
+      placeholder: "e.g., 1.2.3 (build 456)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: macos-version
+    attributes:
+      label: macOS Version
+      description: Which version of macOS are you running?
+      options:
+        - macOS 15.x Sequoia
+        - macOS 14.x Sonoma
+        - macOS 13.x Ventura
+        - macOS 12.x Monterey
+        - Other (specify in description)
+    validations:
+      required: true
+
+  - type: input
+    id: macos-build
+    attributes:
+      label: macOS Build Number
+      description: |
+        Specific macOS build (run `sw_vers` in Terminal or check System Settings > General > About)
+      placeholder: "e.g., 14.2.1 (23C71)"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: chip-type
+    attributes:
+      label: Chip Type
+      description: What type of processor does your Mac have? (Check System Settings > General > About)
+      options:
+        - Apple Silicon M4
+        - Apple Silicon M3
+        - Apple Silicon M2
+        - Apple Silicon M1
+        - Intel
+        - Unknown
+    validations:
+      required: true
+
+  - type: dropdown
+    id: install-method
+    attributes:
+      label: Installation Method
+      description: How did you install Honeymelon?
+      options:
+        - Mac App Store
+        - TestFlight
+        - Direct Download (DMG from website)
+        - Homebrew
+        - Other (specify in description)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: license-status
+    attributes:
+      label: License Status
+      description: What is your license status? (Do NOT include your actual license key)
+      options:
+        - Free/Trial version
+        - Paid/Licensed version
+        - Subscription active
+        - Prefer not to say
+    validations:
+      required: false
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is
+      placeholder: Tell us what happened
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Detailed steps to reproduce the behavior
+      placeholder: |
+        1. Open Honeymelon
+        2. Click on '...'
+        3. Select '...'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+      placeholder: Describe what you expected to happen
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+      placeholder: Describe what actually happened
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and Diagnostics
+      description: |
+        Include relevant logs from Console.app (filter for "Honeymelon") or crash reports
+        
+        **To get logs:**
+        1. Open Console.app
+        2. Select your Mac in sidebar
+        3. Filter for "Honeymelon"
+        4. Copy relevant entries
+      placeholder: Paste logs here
+      render: shell
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or Screen Recordings
+      description: |
+        If applicable, add screenshots or screen recordings to help explain the problem
+        You can drag and drop images directly into this field
+    validations:
+      required: false
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does this occur?
+      description: How frequently can you reproduce this issue?
+      options:
+        - Always (100%)
+        - Frequently (>50%)
+        - Sometimes (20-50%)
+        - Rarely (<20%)
+        - Only once
+    validations:
+      required: false
+
+  - type: textarea
+    id: workarounds
+    attributes:
+      label: Workarounds
+      description: Have you found any workarounds for this issue?
+      placeholder: Describe any workarounds you've found
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: |
+        Add any other context about the problem here:
+        - Is this a regression from a previous version?
+        - Does this happen with specific files or data?
+        - Any other relevant information?
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checklist
+      description: Please confirm the following
+      options:
+        - label: I have searched existing issues to ensure this is not a duplicate
+          required: true
+        - label: I am using the latest version of Honeymelon (or have noted my version above)
+          required: true
+        - label: I have included all relevant system information
+          required: true
+        - label: I have NOT included any license keys or sensitive personal information
+          required: true
