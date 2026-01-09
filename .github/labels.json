@@ -1,0 +1,187 @@
+[
+  {
+    "name": "bug",
+    "color": "d73a4a",
+    "description": "Something isn't working correctly"
+  },
+  {
+    "name": "enhancement",
+    "color": "a2eeef",
+    "description": "New feature or request"
+  },
+  {
+    "name": "question",
+    "color": "d876e3",
+    "description": "Further information is requested"
+  },
+  {
+    "name": "documentation",
+    "color": "0075ca",
+    "description": "Improvements or additions to documentation"
+  },
+  {
+    "name": "duplicate",
+    "color": "cfd3d7",
+    "description": "This issue or pull request already exists"
+  },
+  {
+    "name": "wontfix",
+    "color": "ffffff",
+    "description": "This will not be worked on"
+  },
+  {
+    "name": "invalid",
+    "color": "e4e669",
+    "description": "This doesn't seem right or needs clarification"
+  },
+  {
+    "name": "priority: critical",
+    "color": "b60205",
+    "description": "Urgent: Crashes, data loss, or security issues"
+  },
+  {
+    "name": "priority: high",
+    "color": "d93f0b",
+    "description": "High priority: Significant impact on functionality"
+  },
+  {
+    "name": "priority: medium",
+    "color": "fbca04",
+    "description": "Medium priority: Moderate impact"
+  },
+  {
+    "name": "priority: low",
+    "color": "0e8a16",
+    "description": "Low priority: Minor issues or nice-to-have features"
+  },
+  {
+    "name": "status: needs-triage",
+    "color": "ededed",
+    "description": "Issue needs to be reviewed and labeled by the team"
+  },
+  {
+    "name": "status: needs-info",
+    "color": "d4c5f9",
+    "description": "Waiting for more information from reporter"
+  },
+  {
+    "name": "status: confirmed",
+    "color": "c5def5",
+    "description": "Issue has been verified and accepted"
+  },
+  {
+    "name": "status: in-progress",
+    "color": "fef2c0",
+    "description": "Someone is actively working on this"
+  },
+  {
+    "name": "status: blocked",
+    "color": "b60205",
+    "description": "Cannot proceed due to dependencies or external factors"
+  },
+  {
+    "name": "status: stale",
+    "color": "eeeeee",
+    "description": "No recent activity, may be closed if no response"
+  },
+  {
+    "name": "macos-version: sequoia",
+    "color": "006b75",
+    "description": "Specific to macOS 15 Sequoia"
+  },
+  {
+    "name": "macos-version: sonoma",
+    "color": "006b75",
+    "description": "Specific to macOS 14 Sonoma"
+  },
+  {
+    "name": "macos-version: ventura",
+    "color": "006b75",
+    "description": "Specific to macOS 13 Ventura"
+  },
+  {
+    "name": "macos-version: monterey",
+    "color": "006b75",
+    "description": "Specific to macOS 12 Monterey"
+  },
+  {
+    "name": "chip: apple-silicon",
+    "color": "bfd4f2",
+    "description": "Specific to Apple Silicon (M1/M2/M3/M4) Macs"
+  },
+  {
+    "name": "chip: intel",
+    "color": "bfd4f2",
+    "description": "Specific to Intel processor Macs"
+  },
+  {
+    "name": "license",
+    "color": "ffa500",
+    "description": "Related to licensing, activation, or purchase issues"
+  },
+  {
+    "name": "crash",
+    "color": "d73a4a",
+    "description": "Application crashes or force quits"
+  },
+  {
+    "name": "performance",
+    "color": "fbca04",
+    "description": "Performance issues, slowness, or resource usage"
+  },
+  {
+    "name": "ui/ux",
+    "color": "bfdadc",
+    "description": "User interface or user experience issues"
+  },
+  {
+    "name": "regression",
+    "color": "e99695",
+    "description": "Worked previously but now broken"
+  },
+  {
+    "name": "installation",
+    "color": "c2e0c6",
+    "description": "Issues with installing, updating, or uninstalling"
+  },
+  {
+    "name": "integration",
+    "color": "5319e7",
+    "description": "Integration with other apps or system features"
+  },
+  {
+    "name": "accessibility",
+    "color": "f9d0c4",
+    "description": "Accessibility features or VoiceOver support"
+  },
+  {
+    "name": "localization",
+    "color": "d4c5f9",
+    "description": "Translation or localization issues"
+  },
+  {
+    "name": "security",
+    "color": "b60205",
+    "description": "Security-related issues (use private reporting for vulnerabilities)"
+  },
+  {
+    "name": "good-first-issue",
+    "color": "7057ff",
+    "description": "Good for newcomers to help with"
+  },
+  {
+    "name": "help-wanted",
+    "color": "008672",
+    "description": "Extra attention or community help needed"
+  },
+  {
+    "name": "needs-reproduction",
+    "color": "fef2c0",
+    "description": "Unable to reproduce, needs more details or steps"
+  },
+  {
+    "name": "feedback",
+    "color": "cc317c",
+    "description": "General feedback about the app"
+  }
+]
