@@ -2,7 +2,9 @@
 
 Thank you for your interest in contributing to Honeymelon! 🍈
 
-This repository is primarily for **bug reports, feature requests, and community discussions** related to the Honeymelon macOS app. While the app's source code is not open source, we welcome and value community input.
+Honeymelon is **free and open-source software** licensed under GPL v3, and we welcome community contributions of all kinds!
+
+This repository is primarily for **bug reports, feature requests, and community discussions**. For code contributions, please visit the [main Honeymelon repository](https://github.com/honeymelon-app/honeymelon).
 
 ## How You Can Contribute
 
@@ -66,7 +68,7 @@ Support the project by:
 - Sharing Honeymelon with others who might benefit
 - Writing blog posts or tutorials about your workflow
 - Sharing feedback about what works well
-- Leaving reviews (if purchased through Mac App Store)
+- Starring the project on GitHub
 
 ## Issue Triage and Labels
 

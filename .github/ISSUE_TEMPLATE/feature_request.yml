@@ -1,7 +1,7 @@
 name: ✨ Feature Request
 description: Suggest a new feature or enhancement for Honeymelon
-title: "[Feature]: "
-labels: ["enhancement", "status: needs-triage"]
+title: '[Feature]: '
+labels: ['enhancement', 'status: needs-triage']
 assignees: []
 
 body:
@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         Thank you for suggesting a feature! Your feedback helps us improve Honeymelon.
-        
+
         **Before submitting:**
         - Search existing feature requests to avoid duplicates
         - Check discussions to see if this has been discussed
@@ -104,7 +104,7 @@ body:
     attributes:
       label: Similar Features in Other Apps
       description: Are there similar features in other applications that inspired this request?
-      placeholder: "e.g., App X has a feature where..."
+      placeholder: 'e.g., App X has a feature where...'
     validations:
       required: false
 
@@ -157,18 +157,6 @@ body:
         This would save me X hours per week...
         This would allow me to...
         This would improve my workflow by...
-    validations:
-      required: false
-
-  - type: dropdown
-    id: license-relevance
-    attributes:
-      label: License Tier
-      description: Should this be available to all users, or could it be a premium feature?
-      options:
-        - Should be free for all users
-        - Could be a premium/paid feature
-        - No preference
     validations:
       required: false
 

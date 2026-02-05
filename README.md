@@ -1,8 +1,9 @@
-# Honeymelon Support 🍈
+# Honeymelon 🍈 | Support
 
-Welcome to the official support repository for **Honeymelon**, the macOS app that helps you stay productive and organized.
+Welcome to the official support repository for **Honeymelon**, a free and open-source macOS media converter for Apple Silicon.
 
 This repository is dedicated to:
+
 - 🐛 Bug reports
 - ✨ Feature requests
 - 💬 Community discussions
@@ -30,7 +31,7 @@ We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING
 
 ## About Honeymelon
 
-Honeymelon is a native macOS application designed to enhance your productivity workflow.
+Honeymelon is a free and open-source media converter built specifically for macOS and Apple Silicon, featuring a remux-first FFmpeg workflow for fast, lossless format conversion.
 
 ### System Requirements
 
@@ -40,7 +41,7 @@ Honeymelon is a native macOS application designed to enhance your productivity w
 
 ## License
 
-This repository is licensed under the [MIT License](LICENSE).
+Honeymelon is licensed under the [GNU General Public License v3.0 or later](LICENSE). This means you're free to use, study, modify, and distribute the software.
 
 ## Contact
 

@@ -103,7 +103,6 @@ Apply additional category labels as relevant:
 - `accessibility` - Accessibility or VoiceOver issues
 - `localization` - Translation or language issues
 - `security` - Security-related (public issues only)
-- `license` - License, activation, or purchase issues
 
 ### 5. Special Labels
 
@@ -223,8 +222,7 @@ Always mark as `priority: critical`:
 - App crashes on launch for all users
 - Data loss or corruption
 - Security vulnerabilities
-- Complete inability to use paid features
-- License validation failures
+- Critical functionality completely broken
 
 ### High Priority Scenarios
 
@@ -257,16 +255,6 @@ Typically mark as `priority: low`:
 - Polish and refinements
 
 ## Special Cases
-
-### License Issues
-
-Issues involving licensing or activation:
-
-1. Add `license` label
-2. **Never** ask for actual license keys in public issues
-3. May need to redirect to private support channel
-4. Verify purchase method (Mac App Store, website, etc.)
-5. Priority depends on whether user can use app or not
 
 ### Security Issues
 

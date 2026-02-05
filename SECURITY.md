@@ -48,10 +48,10 @@ Please include as much of the following information as possible:
 
 We provide security updates for the following versions:
 
-| Version | Supported          |
-| ------- | ------------------ |
-| Latest  | ✅ Yes             |
-| < Latest| ⚠️ Best effort     |
+| Version  | Supported     |
+| -------- | ------------- |
+| Latest   | ✅ Yes         |
+| < Latest | ⚠️ Best effort |
 
 We recommend always using the latest version of Honeymelon for the best security.
 
@@ -60,26 +60,18 @@ We recommend always using the latest version of Honeymelon for the best security
 ### Safe Installation
 
 - Download Honeymelon only from official sources:
-  - Mac App Store
-  - Official Honeymelon website
-  - Official TestFlight builds
+  - Official Honeymelon website (honeymelon.app)
+  - GitHub Releases (github.com/honeymelon-app/honeymelon/releases)
+  - Homebrew (if available)
 - Verify the app is properly signed by checking in System Settings > Privacy & Security
 
 ### Permissions
 
 Honeymelon may request the following macOS permissions:
-- **Accessibility**: For productivity features
-- **Screen Recording**: For capturing workflows
-- **File System Access**: For managing documents
-- **Notifications**: For reminders and alerts
+- **File System Access**: For reading and writing media files
+- **Notifications**: For conversion completion alerts
 
 Review and grant only the permissions you're comfortable with.
-
-### License Key Security
-
-- **Never share your license key publicly** (GitHub issues, forums, social media)
-- Store your license key securely
-- If you believe your license key is compromised, contact support immediately
 
 ### Data Privacy
 

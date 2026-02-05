@@ -22,7 +22,7 @@ If you've found a bug or technical issue:
    - macOS version (e.g., macOS 14.2 Sonoma)
    - Chip type (Apple Silicon M1/M2/M3/M4 or Intel)
    - Honeymelon app version
-   - Installation method (Mac App Store, TestFlight, Direct Download, etc.)
+   - Installation method (Direct Download, Homebrew, Built from source, etc.)
    - Detailed steps to reproduce the issue
    - Expected vs. actual behavior
    - Relevant logs or diagnostic information
@@ -54,7 +54,6 @@ When reporting issues, always include:
 - **App Version**: Find this in Honeymelon's About window or Settings
 - **Installation Method**: How you installed Honeymelon
 - **Logs**: Any relevant console logs or crash reports
-- **License Status**: Whether you're using a trial, free version, or licensed version
 
 ### Response Time
 
@@ -66,7 +65,6 @@ When reporting issues, always include:
 ### What NOT to Include
 
 ❌ **Never** include in public issues:
-- License keys or activation codes
 - Personal identifying information
 - Credit card or payment information
 - Private API keys or tokens
@@ -106,22 +104,6 @@ If Honeymelon crashes:
 2. Go to **Crash Reports** in the sidebar
 3. Look for recent Honeymelon crash reports
 4. Attach the crash report to your issue
-
-## License and Billing Issues
-
-For issues related to:
-- License activation
-- Purchase problems
-- Billing questions
-- Subscription management
-
-Please include in your issue:
-- Order ID or receipt number (redact personal details)
-- Purchase date
-- Purchase platform (Mac App Store, website, etc.)
-- Description of the problem
-
-**Do NOT share your actual license key publicly.**
 
 ## Community Guidelines
 

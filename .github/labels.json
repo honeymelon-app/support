@@ -115,11 +115,6 @@
     "description": "Specific to Intel processor Macs"
   },
   {
-    "name": "license",
-    "color": "ffa500",
-    "description": "Related to licensing, activation, or purchase issues"
-  },
-  {
     "name": "crash",
     "color": "d73a4a",
     "description": "Application crashes or force quits"
